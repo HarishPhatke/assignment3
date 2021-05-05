@@ -1,0 +1,50 @@
+Question:-Consider the followng code snippet:
+for(int i=0; i<100; i++) { …..
+}
+Explain in detail how the for loop works. When exactly is the condition checked. When exactly is i incremented. How many times is i set to 0.
+
+Answer:-first of all for loop starts from i=0 then it going through the loop and then check the conditions execute that condition and again i increamented by 1 using i++ and again check the condition this loop is working till i<100 if i value  becomes greater than or equal to 100 at that time loop get fails and loop ends.And only at starting i is set to zero.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question:-In program 2 above, put a semi-colon immediately after the the loop closing parenthesis (& before the brace if present). Will the output change? Why?
+
+Answer:-program will not show any output because in java language the meaning of (;) means the end of statement and if we give semicolon after for loop then for loop ended at start only.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question:-for(int i=0; i<100; i++)
+    for(int j=0; j<100; j++)
+	System.out.print(“ Hi”);
+How many times will “Hi” be printed?
+
+Answer:-10000 times Hi will printed on the screen.
+
+Question:-In the code snippet in the above Q, add another outer loop: for(int a=0; a<100; a++)
+Now how many times will “Hi” be printed?
+
+Answer:-20074 times Hi printed on screen.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question:-What is the difference between passing variables by value and by reference?
+
+Answer:-passing variable by value also known as pass by value and it is defined as making a copy in memory of the actual parameter's value that is passed in, a copy of the contents of the actual parameter.And passing variable by referance is also known as pass by referance means  a copy of the address of the actual parameter is stored.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question:-2.	In your programming languages what is passed by value and what is passed by reference:
+- Primitive datatypes.
+- Arrays
+- Instances of classes defined by the language
+- Instance of user defined objects
+
+Answer:-Arrays are always pass by referance in java.
+        Primitive dta type are always pass by value.
+		Instance of user defined objects are always pass by referance
+		Instances of classes defined by the language are pass by value.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+		
+		
